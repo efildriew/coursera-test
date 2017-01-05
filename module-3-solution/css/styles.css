@@ -1,0 +1,84 @@
+/************ Header ************/
+#header-nav {
+	background-color: #BDBDBD;
+	border-radius: 0;
+	border: 0;
+}
+
+#navbar-brand {
+	padding-top: 25px;
+}
+
+div.navbar-brand h1 {
+	margin: 0 auto 0;
+	font-size: 1.5em;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/************ Body *************/
+body {
+	background-color: #F5D0A9;
+}
+.container h2 {
+	text-align: center;
+	font-size: 2em;
+	padding: 20px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#first-content {
+	background-color: #81DAF5;
+}
+
+.row h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+section {
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+/************** Medium & Small Devices *********************/
+@media ("min-width: 768px") and ("max-width: 991px") {
+	.col-md-12 {
+		/*float: left;*/
+	}
+	.row h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+section {
+	padding: 10px;
+	margin-bottom: 5px;
+}
+/***************** Extra Small Devices *********************/
+@media ("min-width: 767px"){
+	.col-xs-12 {
+		padding: 0;
+	}
+	.row h3 {
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 2em;
+	}
+
+	section {
+		padding: 10px;
+		margin-bottom: 5px;
+	}
